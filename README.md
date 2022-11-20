@@ -1,5 +1,5 @@
 ερ1.\
-Τα βασικά χαρακτηριστικά του συστήματος, όπως προκύπτουν από το [starter_se.py](λινκ γιτηθβ) είναι τα εξής 
+Τα βασικά χαρακτηριστικά του συστήματος, όπως προκύπτουν από το [starter_se.py](https://github.com/Stebonacci/archlab01/blob/main/starter_se.py) είναι τα εξής 
 * clock  = 1GHz
 * cache_line_size = 64
 * voltage="3.3V"
@@ -12,15 +12,15 @@
     * default=2 (channels) 
     * default="2GB" (size)
     
-ερ2.\ 
+ερ2.\
 a)
- από το αρχείο [config.ini](λινκ) επαληθεύουμε τις τιμές:
+ από το αρχείο [config.ini](https://github.com/Stebonacci/archlab01/blob/main/config.ini) επαληθεύουμε τις τιμές:
     * clock=1000
     * cache_line_size=64
     * voltage=3.3
     * type=MinorCPU
     
- από το αρχείο [config.dot](λινκ) επαληθεύουμε τις τιμές:
+ από το αρχείο [config.dot](https://github.com/Stebonacci/archlab01/blob/main/config.dot) επαληθεύουμε τις τιμές:
     * label="mem_ctrls1 \n: DDR3_1600_8x8" 
 
 b) 
@@ -35,6 +35,7 @@ d)
 system.cpu_cluster.l2.overall_accesses::total          474 
 
 3. \
+_από το [documentation](https://www.gem5.org/documentation/general_docs/cpu_models/SimpleCPU)_ 
 * ο **SimpleCPU** είναι ένα καθαρά λειτουργικό in-order μοντέλο, κατάλληλο για περιπτώσεις που δεν χρειάζεται αναλυτικό μοντέλο και έχει τις εξής παραλλαγές:
   * BaseSimpleCPU: Ορίζει συναρτήσεις για έλεγχο εισόδων, ελέγχει το pre-execute setup & post-execute actions και ετιμάζει το PC για την επόμενη εντολή.
    Χρησιμοποιείται ως υπερκλάση για τους AtomicSimpleCPU & TimingSimpleCPU. 
