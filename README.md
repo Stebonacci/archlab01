@@ -15,10 +15,10 @@
 ερ2.\
 a)
  από το αρχείο [config.ini](https://github.com/Stebonacci/archlab01/blob/main/config.ini) επαληθεύουμε τις τιμές:
-    * clock=1000
-    * cache_line_size=64
-    * voltage=3.3
-    * type=MinorCPU
+ * clock=1000
+ * cache_line_size=64
+ * voltage=3.3
+ * type=MinorCPU
     
  από το αρχείο [config.dot](https://github.com/Stebonacci/archlab01/blob/main/config.dot) επαληθεύουμε τις τιμές:
     * label="mem_ctrls1 \n: DDR3_1600_8x8" 
@@ -28,10 +28,10 @@ b)
 * sim_seconds    : η χρονική διάρκεια σε δευτερόλεπτα της προσομοίωσης
 * host_inst_rate : ο αριθμός των εντώλων που εκτελούνται ανα δευτερόλεπτο
 
-c)
+c)\
 system.cpu_cluster.cpus.committedInsts  5027 
 
-d)
+d)\
 system.cpu_cluster.l2.overall_accesses::total          474 
 
 3. \
